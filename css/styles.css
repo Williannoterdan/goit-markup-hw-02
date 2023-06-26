@@ -93,3 +93,11 @@ button:focus {
 .intro {
   background-color: #2e2f42;
 }
+.h1-portfolio {
+  color: #434455;
+  font-size: 56px;
+}
+.h1-portfolio .text-logo, .h1-portfolio .text-logo2{
+  font-size: 56px;
+  text-transform: none;
+}
