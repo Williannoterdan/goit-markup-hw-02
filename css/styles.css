@@ -49,7 +49,9 @@ button {
 .link{
   text-decoration: none;
 }
-
+.list{
+  list-style: none;
+}
 a:hover,
 a:focus {
   color: #404bbf;
