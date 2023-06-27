@@ -94,7 +94,9 @@ button:focus {
   font-weight: 500;
   font-size: 16px;
 }
-
+.styless-address{
+  font-style: normal;
+}
 /* Контактні дані */
 .contact-date {
   color: #434455;
