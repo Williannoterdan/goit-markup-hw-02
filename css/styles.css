@@ -94,7 +94,7 @@ button:focus {
   font-weight: 500;
   font-size: 16px;
 }
-.styless-address{
+.styless-address {
   font-style: normal;
 }
 /* Контактні дані */
@@ -121,6 +121,13 @@ button:focus {
 }
 /* Section 2 */
 .company-codexs-h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.strategi-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
