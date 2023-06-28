@@ -3,7 +3,7 @@
   --color-of-txt-one:hsl(237, 12%, 30%);
   --color-of-background-one: #ffffff;
   --color-of-txt-two: #2e2f42;
-  --color-of-background-two:#f4f4fd;
+  --var(--color-of-background-two):#f4f4fd;
   --color-of-background-thre: #4d5ae5;
 }
 /* Body */
@@ -19,18 +19,18 @@ button {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 1em;
   color: var(--color-of-background-one);
 }
 
 .link {
-  text-decoration: none;x
+  text-decoration: none;
 }
 .list {
   list-style: none;
 }
-a:hover,
-a:focus {
+.link:hover,
+.link:focus {
   color: var(--color-hover);
 }
 button:hover,
@@ -133,7 +133,7 @@ button:focus {
 }
 /* Section 4 */
 .section-my-tim {
-  background-color: color-of-background-two;
+  background-color: var(--color-of-background-two);
 }
 .section-my-tim-h {
   font-size: 36px;
@@ -160,7 +160,7 @@ button:focus {
 }
 .p-footer-intro {
   line-height: 1.5;
-  color: color-of-background-two;
+  color: var(--color-of-background-two);
   letter-spacing: 0.02em;
 }
 /* Portfolio-main */
@@ -171,5 +171,5 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-of-background-thre);
-  background-color: color-of-background-two;
+  background-color: var(--color-of-background-two);
 }
