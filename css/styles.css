@@ -1,34 +1,33 @@
 :root{
   --color-hover: #404bbf;
-  --strategi-description-color:#434455;
+  --color-of-txt-one:hsl(237, 12%, 30%);
+  --color-of-background-one: #ffffff;
+  --color-of-txt-two: #2e2f42;
+  --color-of-background-two:#f4f4fd;
+  --color-of-background-thre: #4d5ae5;
 }
 /* Body */
 body {
-  color: #434455;
+  color: var( --color-of-txt-two)
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  background-color: var(--color-of-background-one);
 }
 button {
   cursor: pointer;
-  background: #4d5ae5;
+  background-color: var(--color-of-background-thre);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  color: #ffffff;
+  color: var(--color-of-background-one);
 }
 
 .link {
-  text-decoration: none;
+  text-decoration: none;x
 }
 .list {
   list-style: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 a:hover,
 a:focus {
@@ -37,14 +36,14 @@ a:focus {
 button:hover,
 button:focus {
   background-color: var(--color-hover);
-  color: #ffffff;
+  color: var(--color-of-background-one);
 }
 
 /* Лого */
 .text-logo,
 .text-logo:hover,
 .text-logo:focus {
-  color: #4d5ae5;
+  color: var(--color-of-background-thre);
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
@@ -58,16 +57,16 @@ button:focus {
 .text-logo-studio,
 .text-logo-studio:hover,
 .text-logo-studio:focus {
-  color: #2e2f42;
+  color: var(--color-of-txt-two);
   font-family: "Raleway", sans-serif;
 }
 .text-logo-footer {
-  color: #f4f4fd;
+  color: var(--color-of-background-one);
 }
 /* Навігація по сайту */
 .navigationpanel {
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--color-of-txt-two);
   font-weight: 500;
   font-size: 16px;
 }
@@ -76,7 +75,7 @@ button:focus {
 }
 /* Контактні дані */
 .contact-date {
-  color: #434455;
+  color: var( --color-of-txt-two)
   text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
@@ -88,13 +87,13 @@ button:focus {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--color-of-background-one);
 }
 .intro {
-  background-color: #2e2f42;
+  background-color: var(--color-of-txt-two);
 }
 .h1-portfolio {
-  color: #434455;
+  color: var( --color-of-txt-two)
   font-size: 56px;
 }
 .h1-portfolio .text-logo,
@@ -108,20 +107,20 @@ button:focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-of-txt-two);
 }
 .strategi-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-of-txt-two);
 }
 .strategi-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--strategi-description-color);
+  color: var(--color-of-txt-one);
 }
 /* Section 3 */
 .section-h {
@@ -130,11 +129,11 @@ button:focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-of-txt-two);
 }
 /* Section 4 */
 .section-my-tim {
-  background-color: #f4f4fd;
+  background-color: color-of-background-two;
 }
 .section-my-tim-h {
   font-size: 36px;
@@ -142,7 +141,7 @@ button:focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-of-txt-two);
 }
 .section-my-tim-h3 {
   font-size: 36px;
@@ -150,18 +149,18 @@ button:focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-of-txt-two);
 }
 .li-first{
-  background-color: #ffffff;
+  background-color: var(--color-of-background-one);
 }
 /* Foter */
 .footer-index {
-  background-color: #2e2f42;
+  background-color: var(--color-of-txt-two);
 }
 .p-footer-intro {
   line-height: 1.5;
-  color: #f4f4fd;
+  color: color-of-background-two;
   letter-spacing: 0.02em;
 }
 /* Portfolio-main */
@@ -171,6 +170,6 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--color-of-background-thre);
+  background-color: color-of-background-two;
 }
