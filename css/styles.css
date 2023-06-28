@@ -58,7 +58,7 @@ button:focus {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
 }
-.text-logo2-footer{
+.text-logo2-footer {
   color: #f4f4fd;
 }
 /* Навігація по сайту */
@@ -80,12 +80,12 @@ button:focus {
   letter-spacing: 0.32px;
 }
 /* Section 1 */
-.text-intro{
- font-size: 56px;
- line-height: 1.07;
- text-align: center;
- letter-spacing: 0.02em;
- color: #ffffff;
+.text-intro {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 .intro {
   background-color: #2e2f42;
@@ -150,11 +150,21 @@ button:focus {
   color: #2e2f42;
 }
 /* Foter */
-.footer-index{
+.footer-index {
   background-color: #2e2f42;
 }
-.p-footer-intro{
+.p-footer-intro {
   line-height: 1.5;
-color: #F4F4FD;
-letter-spacing: 0.02em;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+/* Portfolio-main */
+.boton-tail {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
 }
