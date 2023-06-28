@@ -63,7 +63,7 @@ button:focus {
   font-family: "Raleway", sans-serif;
 }
 .text-logo-footer {
-  color: var(--color-of-background-one);
+  color: var(--color-of-background-two);
 }
 /* Навігація по сайту */
 .navigationpanel {
