@@ -73,7 +73,7 @@ button:focus {
   color: #434455;
   text-decoration: none;
   font-size: 16px;
-  line-height: 1;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 /* Section 1 */
@@ -118,7 +118,7 @@ button:focus {
   color: #434455;
 }
 /* Section 3 */
-.section3-h2 {
+.section-h {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
