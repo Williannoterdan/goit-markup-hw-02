@@ -8,7 +8,7 @@
 }
 /* Body */
 body {
-  color: var( --color-of-txt-two);
+  color: var( --color-of-txt-one);
   font-family: "Roboto", sans-serif;
   background-color: var(--color-of-background-one);
 }
@@ -63,7 +63,7 @@ button:focus {
   font-family: "Raleway", sans-serif;
 }
 .text-logo-footer {
-  color: var(--color-of-background-two);
+  color: var(--color-of-background-one);
 }
 /* Навігація по сайту */
 .navigationpanel {
@@ -84,6 +84,9 @@ button:focus {
   letter-spacing: 0.32px;
 }
 /* Section 1 */
+.button-index{
+  letter-spacing: 0.04em;
+}
 .text-intro {
   font-size: 56px;
   line-height: 1.07;
