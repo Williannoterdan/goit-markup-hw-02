@@ -1,6 +1,6 @@
 :root{
   --color-hover: #404bbf;
-  --color-of-txt-one:hsl(237, 12%, 30%);
+  --color-of-txt-one: #434455;
   --color-of-background-one: #ffffff;
   --color-of-txt-two: #2e2f42;
   --var(--color-of-background-two):#f4f4fd;
@@ -8,7 +8,7 @@
 }
 /* Body */
 body {
-  color: var( --color-of-txt-two)
+  color: var( --color-of-txt-two);
   font-family: "Roboto", sans-serif;
   background-color: var(--color-of-background-one);
 }
@@ -19,12 +19,14 @@ button {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 1em;
+  letter-spacing: 0.02em;
   color: var(--color-of-background-one);
 }
 
 .link {
   text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .list {
   list-style: none;
