@@ -39,6 +39,7 @@ a:focus {
 button:hover,
 button:focus {
   background-color: var(--color-hover);
+  color: #ffffff;
 }
 
 /* Лого */
@@ -56,9 +57,9 @@ button:focus {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.text-logo2,
-.text-logo2:hover,
-.text-logo2:focus {
+.text-logo-studio,
+.text-logo-studio:hover,
+.text-logo-studio:focus {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
 }
@@ -99,7 +100,7 @@ button:focus {
   font-size: 56px;
 }
 .h1-portfolio .text-logo,
-.h1-portfolio .text-logo2 {
+.h1-portfolio .text-logo-studio {
   font-size: 56px;
   text-transform: none;
 }
@@ -153,7 +154,7 @@ button:focus {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.li1{
+.li-first{
   background-color: #ffffff;
 }
 /* Foter */
