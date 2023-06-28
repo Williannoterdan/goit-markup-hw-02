@@ -58,6 +58,9 @@ button:focus {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
 }
+.text-logo2-footer{
+  color: #f4f4fd;
+}
 /* Навігація по сайту */
 .navigationpanel {
   text-decoration: none;
@@ -149,4 +152,9 @@ button:focus {
 /* Foter */
 .footer-index{
   background-color: #2e2f42;
+}
+.p-footer-intro{
+  line-height: 1.5;
+color: #F4F4FD;
+letter-spacing: 0.02em;
 }
