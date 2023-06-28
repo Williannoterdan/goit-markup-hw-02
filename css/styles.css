@@ -147,3 +147,7 @@ button:focus {
   text-transform: capitalize;
   color: #2e2f42;
 }
+/* Foter */
+.footer-index{
+  background-color: #2e2f42;
+}
