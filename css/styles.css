@@ -1,3 +1,7 @@
+:root{
+  --color-hover: #404bbf;
+  --strategi-description-color:#434455;
+}
 /* Body */
 body {
   color: #434455;
@@ -30,11 +34,11 @@ button {
 }
 a:hover,
 a:focus {
-  color: #404bbf;
+  color: var(--color-hover);
 }
 button:hover,
 button:focus {
-  background-color: #404bbf;
+  background-color: var(--color-hover);
 }
 
 /* Лого */
@@ -58,7 +62,7 @@ button:focus {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
 }
-.text-logo2-footer {
+.text-logo-footer {
   color: #f4f4fd;
 }
 /* Навігація по сайту */
@@ -118,7 +122,7 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--strategi-description-color);
 }
 /* Section 3 */
 .section-h {
@@ -133,7 +137,7 @@ button:focus {
 .section-my-tim {
   background-color: #f4f4fd;
 }
-.section-my-tim-h2 {
+.section-my-tim-h {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -148,6 +152,9 @@ button:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+.li1{
+  background-color: #ffffff;
 }
 /* Foter */
 .footer-index {
