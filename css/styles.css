@@ -30,6 +30,7 @@ button {
 }
 .list {
   list-style: none;
+  color: var(--color-of-txt-one);
 }
 .link:hover,
 .link:focus {
@@ -63,7 +64,7 @@ button:focus {
   font-family: "Raleway", sans-serif;
 }
 .text-logo-footer {
-  color: var(--color-of-background-one);
+  color: var(--color-of-background-two);
 }
 /* Навігація по сайту */
 .navigationpanel {
@@ -84,8 +85,9 @@ button:focus {
   letter-spacing: 0.32px;
 }
 /* Section 1 */
-.button-index{
+.button-home{
   letter-spacing: 0.04em;
+  color: var(--color-of-background-one);
 }
 .text-intro {
   font-size: 56px;
