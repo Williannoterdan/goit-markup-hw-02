@@ -3,7 +3,7 @@
   --color-of-txt-one: #434455;
   --color-of-background-one: #ffffff;
   --color-of-txt-two: #2e2f42;
-  ----color-of-background-two:#f4f4fd;
+  --color-of-background-two:#f4f4fd;
   --color-of-background-thre: #4d5ae5;
 }
 /* Body */
@@ -38,7 +38,7 @@ button {
 button:hover,
 button:focus {
   background-color: var(--color-hover);
-  color: var(----color-of-txt-one);
+  color: var(--color-of-txt-one);
 }
 
 /* Лого */
