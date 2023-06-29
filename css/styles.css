@@ -3,7 +3,7 @@
   --color-of-txt-one: #434455;
   --color-of-background-one: #ffffff;
   --color-of-txt-two: #2e2f42;
-  --var(--color-of-background-two):#f4f4fd;
+  ----color-of-background-two:#f4f4fd;
   --color-of-background-thre: #4d5ae5;
 }
 /* Body */
@@ -77,7 +77,7 @@ button:focus {
 }
 /* Контактні дані */
 .contact-date {
-  color: var( --color-of-txt-two)
+  color: var( --color-of-txt-two);
   text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
@@ -98,7 +98,7 @@ button:focus {
   background-color: var(--color-of-txt-two);
 }
 .h1-portfolio {
-  color: var( --color-of-txt-two)
+  color: var( --color-of-txt-two);
   font-size: 56px;
 }
 .h1-portfolio .text-logo,
